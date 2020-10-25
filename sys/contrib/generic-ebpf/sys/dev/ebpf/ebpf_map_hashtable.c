@@ -174,7 +174,7 @@ hashtable_map_init(struct ebpf_map *map, struct ebpf_map_attr *attr)
 
 	/*
 	 * Roundup number of buckets to power of two.
-	 * This improbes performance, because we don't have to
+	 * This improves performance, because we don't have to
 	 * use slow moduro opearation.
 	 */
 	hash_map->nbuckets = ebpf_roundup_pow_of_two(attr->max_entries);

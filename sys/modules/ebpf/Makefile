@@ -16,6 +16,7 @@ SRCS= \
 	ebpf_map.c \
 	ebpf_map_array.c \
 	ebpf_map_hashtable.c \
+	ebpf_lpm_trie.c\
 	ebpf_obj.c \
 	ebpf_prog.c \
 

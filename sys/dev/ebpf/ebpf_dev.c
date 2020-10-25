@@ -98,6 +98,7 @@ const struct ebpf_config fbsd_ebpf_config = {
 	.map_types = {
 		[EBPF_MAP_TYPE_ARRAY]            = &emt_array,
 		[EBPF_MAP_TYPE_PERCPU_ARRAY]     = &emt_percpu_array,
+		[EBPF_MAP_TYPE_LPM_TRIE]	 = &emt_lpm_trie,
 		[EBPF_MAP_TYPE_HASHTABLE]        = &emt_hashtable,
 		[EBPF_MAP_TYPE_PERCPU_HASHTABLE] = &emt_percpu_hashtable,
 		[EBPF_MAP_TYPE_PROGARRAY]        = &emt_progarray,

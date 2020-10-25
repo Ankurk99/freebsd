@@ -132,6 +132,7 @@ void ebpf_map_destroy(struct ebpf_map *em);
 extern const struct ebpf_map_type emt_array;
 extern const struct ebpf_map_type emt_percpu_array;
 extern const struct ebpf_map_type emt_hashtable;
+extern const struct ebpf_map_type emt_lpm_trie;
 extern const struct ebpf_map_type emt_percpu_hashtable;
 extern const struct ebpf_helper_type eht_map_lookup_elem;
 extern const struct ebpf_helper_type eht_map_update_elem;
